@@ -1,0 +1,6 @@
+## build folder
+build/
+
+## mac os
+.DS_Store
+.swp

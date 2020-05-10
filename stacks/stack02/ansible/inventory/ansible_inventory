@@ -1,0 +1,15 @@
+[all_linux:children]
+@stack_name@_group1
+
+[all_webmethods:children]
+@stack_name@_group1
+
+[@stack_name@:children]
+@stack_name@_group1
+
+[integration:children]
+@stack_name@_group1
+
+[@stack_name@_group1]
+@stack_name@_is_1 ansible_host=1.2.3.4 dns_internal=server1.dns.local
+@stack_name@_is_2 ansible_host=1.2.3.5 dns_internal=server2.dns.local
